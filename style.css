@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: rgb(243, 152, 166);
+}
+
+.row__poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row__poster:hover{
+    transform: scale(1.08)
+
+}
+
+.row__posters::-webkit-scrollbar{
+    display:-moz-grid;
+}
+
+
+
+.row__posterLarge{
+    max-height: 250px;
+}
+
+.row{
+    color: black;
+    margin-left: 20px;
+}
+
+.play{
+    margin-top: 77px;
+    overflow-x: hidden;
+}
+
+.space{
+    margin-top: 30px;
+}
+
+h2{
+    color: rgb(238, 238, 211);
+}
+
+.row__post{
+    padding-right: 10px;
+    transition: transform 350ms;
+}
+
+.row__post:hover{
+    transform: scale(1.08)
+
+}
+
+
+
+
+/*navbar*/
+
+.navbar-nav .nav-link{
+    padding-left: 1%;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav a:hover{
+    color: rgb(25, 10, 39);
+    background-color: rgb(211, 67, 91);
+}
+
+.clr{
+    background-color: rgb(245, 149, 165);
+}
+.imglogo{
+    width: 113px;
+    height: 44px;
+    padding-left: 2px;
+}
+.bttn{
+    border: none;
+}
+.tex{
+    color: rgb(240, 231, 231);
+}
+
+.img1{
+    max-height: 430px;
+    width: 100%;
+}
+
+.car{
+    position: fixed;
+}
+
+.dis{
+    top: 59px;
+}
